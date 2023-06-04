@@ -72,7 +72,7 @@ JDBC mimarisi  Mantığı  ve yapısı :
   • Çıktıyı JDBC sürücüsüne geri gönderir.
   • JDBC sürücüsü, çıktıyı Java uygulamasına geri gönderir. Kısaca işlem böyle yapılır.
 
-  ![JDBC mimarisi.png](Java%20Database%20Connectivity%206b1ec38d53204045a79bf38452c32fbb/JDBC_mimarisi.png)
+  ![JDBC mimarisi.png](JDBC_mimarisi.png)
 
 - Java ile yazılan sınıf ve arayüzler  ile database ilişkisini sağlar. dedik.  IDE ile database ilişki ortamının hazırlanması gerekiyor . Java kodları ile sql query’lerii kullanabilmek için enviroment hazırlanma aşamasında  kullanacağımız JDBC sınıflarını  ve Interface’lerinialalım.
 - Java Application’da Java.sql  kütüphanesinden alınan  sınıflar ile JDBC API bu bağlantıyı taşırken;
@@ -98,10 +98,10 @@ Aşağıda daha detaylı açıklayacağım.
 
 - Açık kaynak olan bir database’de lokalinizde çalışmak istiyorsanız paylaşıma açık örnek database örneklerinden 1 tanesine [buradan](https://resources.oreilly.com/examples/9780596007270/blob/master/LearningSQLExample.sql) ulaşabilir, import edebilirsiniz.
 
-  ![Bank Test Database tables Info.png](Java%20Database%20Connectivity%206b1ec38d53204045a79bf38452c32fbb/Bank_Test_Database_tables_Info.png)
+  ![Bank Test Database tables Info.png](Bank_Test_Database_tables_Info.png)
 
 
-![Bank Test database schema.png](Java%20Database%20Connectivity%206b1ec38d53204045a79bf38452c32fbb/Bank_Test_database_schema.png)
+![Bank Test database schema.png](Bank_Test_database_schema.png)
 
 ### —>Remote bir database’ ile lokalde çalışmak isterseniz :
 
@@ -200,25 +200,25 @@ A. Bir sql query oluşturmak için. createStatement() metodu kullanılır.
 
 bir obje oluşturmak için kullanılır.
 
-![Screen Shot 2023-05-31 at 21.15.52 PM.png](Java%20Database%20Connectivity%206b1ec38d53204045a79bf38452c32fbb/Screen_Shot_2023-05-31_at_21.15.52_PM.png)
+![Screen Shot 2023-05-31 at 21.15.52 PM.png](Screen_Shot_2023-05-31_at_21.15.52_PM.png)
 
 1. Gelen sonuçları işlemek gerekiyor.
 
-   ![Screen Shot 2023-05-31 at 21.20.08 PM.png](Java%20Database%20Connectivity%206b1ec38d53204045a79bf38452c32fbb/Screen_Shot_2023-05-31_at_21.20.08_PM.png)
+   ![Screen Shot 2023-05-31 at 21.20.08 PM.png](Screen_Shot_2023-05-31_at_21.20.08_PM.png)
 
 
 Java Collection Set konusunna bakınız
 
 1. DB bağlantısı kapatılır.  kapatılmalıdır.  Açık DB her türlü veri sızıntısına kapalıdır.
 
-   ![Screen Shot 2023-05-31 at 21.22.30 PM.png](Java%20Database%20Connectivity%206b1ec38d53204045a79bf38452c32fbb/Screen_Shot_2023-05-31_at_21.22.30_PM.png)
+   ![Screen Shot 2023-05-31 at 21.22.30 PM.png](Screen_Shot_2023-05-31_at_21.22.30_PM.png)
 
    Java’da Fıle ınput system - Selenium driver_close - Scan close  bilgi sızıntısı olmaması için bilginin olduğu her yerde close () Yapılır.
 
    Örnek DB database step definition:
 
 
-![Screen Shot 2023-05-31 at 21.35.57 PM.png](Java%20Database%20Connectivity%206b1ec38d53204045a79bf38452c32fbb/Screen_Shot_2023-05-31_at_21.35.57_PM.png)
+![Screen Shot 2023-05-31 at 21.35.57 PM.png](Screen_Shot_2023-05-31_at_21.35.57_PM.png)
 
 JDBC IDE ilk Baglantısı NASIL olur  ? Proje bağlantıları nasıl olmalıdır ?
 
@@ -226,9 +226,9 @@ JDBC IDE ilk Baglantısı NASIL olur  ? Proje bağlantıları nasıl olmalıdır
 
 - Cucumber ile çalışcağız. Ona göre bir framework yapısı oluşturmaya alışırsan daha iyi olur.
 
-  ![Screen Shot 2023-05-31 at 21.35.50 PM.png](Java%20Database%20Connectivity%206b1ec38d53204045a79bf38452c32fbb/Screen_Shot_2023-05-31_at_21.35.50_PM.png)
+  ![Screen Shot 2023-05-31 at 21.35.50 PM.png](Screen_Shot_2023-05-31_at_21.35.50_PM.png)
 
-  ![Screen Shot 2023-05-31 at 21.32.51 PM.png](Java%20Database%20Connectivity%206b1ec38d53204045a79bf38452c32fbb/Screen_Shot_2023-05-31_at_21.32.51_PM.png)
+  ![Screen Shot 2023-05-31 at 21.32.51 PM.png](Screen_Shot_2023-05-31_at_21.32.51_PM.png)
 
 - dependencies bağımlı kütüphanelerinde JUnit olacak
 
@@ -255,7 +255,7 @@ JDBC IDE ilk Baglantısı NASIL olur  ? Proje bağlantıları nasıl olmalıdır
 
   Not: Mvn repository’ye gitmeden intellijDe yazarak indirilmesini sağlanabilirsin
 
-  ![Screen Shot 2023-05-31 at 21.59.59 PM.png](Java%20Database%20Connectivity%206b1ec38d53204045a79bf38452c32fbb/Screen_Shot_2023-05-31_at_21.59.59_PM.png)
+  ![Screen Shot 2023-05-31 at 21.59.59 PM.png](Screen_Shot_2023-05-31_at_21.59.59_PM.png)
 
 
 ### HUB Bilgiler
